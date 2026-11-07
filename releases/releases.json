@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "note": "TEST releases signed with a throwaway sandbox key. Real gateways reject them.",
+  "releases": [
+    {
+      "version": "9.0.3",
+      "publishedAt": "2026-11-07T12:00:00Z",
+      "prerelease": true,
+      "notes": "Broken on purpose: exits at startup, so the gateway rolls back to the release it ran before.",
+      "manifest": "9.0.3/manifest.json",
+      "bundle": {
+        "file": "9.0.3/NeoCortec-Gateway-9.0.3.zip",
+        "sizeBytes": 7966
+      },
+      "assets": [
+        {
+          "platform": "linux-arm64",
+          "file": "9.0.3/NeoCortecGateway-9.0.3-linux-arm64.tar.gz",
+          "sizeBytes": 7253,
+          "sha512": "ebffe2f8ad373c9e7dc1772cf65ef62fa59289970e9caf9aa13cc83e02c7d0653aaaa32f478a389fe0785bef6573f524ccdafe4bd754736789a11f2c827dbad9"
+        }
+      ]
+    },
+    {
+      "version": "9.0.2",
+      "publishedAt": "2026-11-06T12:00:00Z",
+      "prerelease": false,
+      "notes": "Sandbox update target. Install this on the gateways running 9.0.1.",
+      "manifest": "9.0.2/manifest.json",
+      "bundle": {
+        "file": "9.0.2/NeoCortec-Gateway-9.0.2.zip",
+        "sizeBytes": 1577822
+      },
+      "assets": [
+        {
+          "platform": "linux-arm64",
+          "file": "9.0.2/NeoCortecGateway-9.0.2-linux-arm64.tar.gz",
+          "sizeBytes": 1577106,
+          "sha512": "7ae88223dbd3ce36670e77d86b16a4ef411c391bf0c3582ec9b36f2798172a7eaccd6773c8dc29f9537027d155f584352f389f8d160c010c8e8fedaaa536bc65"
+        }
+      ]
+    },
+    {
+      "version": "9.0.1",
+      "publishedAt": "2026-11-05T12:00:00Z",
+      "prerelease": false,
+      "notes": "Sandbox baseline.",
+      "manifest": "9.0.1/manifest.json",
+      "bundle": {
+        "file": "9.0.1/NeoCortec-Gateway-9.0.1.zip",
+        "sizeBytes": 1577822
+      },
+      "assets": [
+        {
+          "platform": "linux-arm64",
+          "file": "9.0.1/NeoCortecGateway-9.0.1-linux-arm64.tar.gz",
+          "sizeBytes": 1577106,
+          "sha512": "18980fa216292eb5dc868bbaf04a7b7e57174cb1480c539c0533d23f27708998d448cdadf260c25fbff42dadb1b3a6fddc8bbac9153b0b7ad26e2e0771cd6452"
+        }
+      ]
+    }
+  ]
+}

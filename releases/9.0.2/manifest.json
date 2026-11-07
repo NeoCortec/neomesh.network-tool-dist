@@ -1,0 +1,12 @@
+{
+  "version": "9.0.2",
+  "assets": [
+    {
+      "platform": "linux-arm64",
+      "file": "NeoCortecGateway-9.0.2-linux-arm64.tar.gz",
+      "sizeBytes": 1577106,
+      "sha512": "7ae88223dbd3ce36670e77d86b16a4ef411c391bf0c3582ec9b36f2798172a7eaccd6773c8dc29f9537027d155f584352f389f8d160c010c8e8fedaaa536bc65",
+      "signature": "GpCH9ITkl1LxdMrlE+mtAfW8s61uMDfwhCju8kLVO3mlGlXYf5S8UsSUXw3pyZVwY4NAaB6s0KgYqz21BnLzBg=="
+    }
+  ]
+}
